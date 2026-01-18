@@ -15,6 +15,13 @@ A console-based weather application that fetches real-time weather data using th
 
 1.  **Clone the repository** (if you haven't already).
 2.  **Compile the project**:
+
+    First, create the `bin` directory (if it doesn't exist):
+    ```powershell
+    mkdir bin
+    ```
+
+    Then compile:
     ```powershell
     javac -cp "lib/gson-2.10.1.jar" -d bin -sourcepath src/main/java src/main/java/com/weatherapp/Main.java
     ```
