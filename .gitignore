@@ -1,0 +1,18 @@
+# Build artifacts
+bin/
+target/
+*.class
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
